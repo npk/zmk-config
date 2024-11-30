@@ -2,29 +2,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    macros {
-        copy: copy {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp C>;
-            label = "COPY";
-        };
-
-        paste: paste {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp V>;
-            label = "PASTE";
-        };
-
-        select_all: select_all {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp A>;
-            label = "SELECT_ALL";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -39,10 +16,10 @@
 
         layer_1 {
             bindings = <
-&kp NUMBER_9      &kp NUMBER_5    &kp NUMBER_1          &kp NUMBER_3  &kp NUMBER_7     &kp NUMBER_6   &kp NUMBER_2     &kp NUMBER_0           &kp NUMBER_4     &kp NUMBER_8
-&kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp EQUAL     &kp COLON        &kp SEMICOLON  &kp EXCLAMATION  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET
-&kp Q             &kp ASTERISK    &kp MINUS             &kp PLUS      &kp AMPERSAND    &kp PIPE       &kp AT_SIGN      &kp POUND              &kp UNDERSCORE   &kp Z
-                                                        &copy         &paste           &select_all    &sl 2
+&kp NUMBER_9      &kp NUMBER_5    &kp NUMBER_1          &kp NUMBER_3      &kp NUMBER_7        &kp NUMBER_6   &kp NUMBER_2     &kp NUMBER_0           &kp NUMBER_4     &kp NUMBER_8
+&kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp EQUAL         &kp COLON           &kp SEMICOLON  &kp EXCLAMATION  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET
+&kp Q             &kp ASTERISK    &kp MINUS             &kp PLUS          &kp AMPERSAND       &kp PIPE       &kp AT_SIGN      &kp POUND              &kp UNDERSCORE   &kp Z
+                                                        &sk LEFT_COMMAND  &sk LEFT_CONTROL    &kp ESCAPE     &sl 2
             >;
         };
 
