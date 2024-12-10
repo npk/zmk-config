@@ -8,7 +8,7 @@
         layer_0 {
             bindings = <
 &kp J  &kp G  &kp M  &kp P           &kp V    &kp TAB        &kp PERIOD  &kp COMMA  &kp SINGLE_QUOTE  &kp SLASH
-&kp R  &kp S  &kp N  &kp D           &kp B    &kp ENTER      &kp A       &kp E      &kp I             &kp M
+&kp R  &kp S  &kp N  &kp D           &kp B    &kp ENTER      &kp A       &kp E      &kp I             &kp H
 &kp X  &kp F  &kp L  &kp C           &kp W    &kp BACKSPACE  &kp U       &kp O      &kp Y             &kp K
                      &sk LEFT_SHIFT  &kp T    &kp SPACE      &sl 1
             >;
