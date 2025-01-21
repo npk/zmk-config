@@ -16,10 +16,10 @@
 
         layer_1 {
             bindings = <
-&kp Z              &kp Q      &kp PLUS        &kp MINUS              &kp AT              &kp DLLR    &kp NUMBER_2  &kp NUMBER_4  &kp NUMBER_6  &kp NUMBER_8
-&kp LEFT_BRACKET   &kp EQUAL  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS   &kp SEMICOLON       &kp AMPS    &kp NUMBER_0  &kp NUMBER_1  &kp UNDER     &kp EXCL
-&kp RIGHT_BRACKET  &kp COLON  &kp RBRC        &kp RIGHT_PARENTHESIS  &kp HASH            &kp PIPE    &kp NUMBER_3  &kp NUMBER_5  &kp NUMBER_7  &kp NUMBER_9
-                                              &sk LEFT_COMMAND       &sk LEFT_CONTROL    &kp ESCAPE  &sl 2
+&kp Z              &kp Q      &kp PLUS        &kp MINUS              &kp AT              &kp STAR        &kp NUMBER_2  &kp NUMBER_4  &kp NUMBER_6  &kp NUMBER_8
+&kp LEFT_BRACKET   &kp EQUAL  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS   &kp SEMICOLON       &kp AMPS        &kp DOLLAR    &kp NUMBER_0  &kp NUMBER_1  &kp EXCL
+&kp RIGHT_BRACKET  &kp COLON  &kp RBRC        &kp RIGHT_PARENTHESIS  &kp HASH            &kp PIPE        &kp NUMBER_3  &kp NUMBER_5  &kp NUMBER_7  &kp NUMBER_9
+                                              &sk LEFT_COMMAND       &sk LEFT_CONTROL    &kp UNDERSCORE  &sl 2
             >;
         };
 
